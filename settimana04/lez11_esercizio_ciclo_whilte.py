@@ -2,7 +2,6 @@
 Esercizi ciclo while
 """
 
-# -------------------------------------------------------
 # Stampa i quadrati di tutti i numeri che l'utente 
 # inserisce da tastiera
 # finché l'utente non inserisce il valore zero 
@@ -15,3 +14,5 @@ while numero != 0 :
     numero = int(input ("Inserisci numero: "))
 
 print ("Fine")
+
+# PRINCIPIO DRY = DON'T REPEAT YOURSELF
