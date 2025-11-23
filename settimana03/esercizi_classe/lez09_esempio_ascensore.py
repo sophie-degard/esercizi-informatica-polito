@@ -14,4 +14,3 @@ else :
     piano_reale = piano - 2
 
 print ("Bisogna spostarsi al piano ", piano_reale)
-

@@ -1,0 +1,18 @@
+"""
+Leggere un valore intero dallutente, nel caso in cui non sia un 
+numer intero, chiedere di re-inserire il valore 
+"""
+
+risposta = input ("Inserisci il numero: ")
+
+""" if risposta.isnumeric():
+    numero = int(risposta)
+else: 
+    controllo = input ("Ripeti un numero: ")   """ 
+
+while not risposta.isnumeric():                         #condizione di validazione del dato
+    print (f'valore {risposta} non valido, riprova')
+    risposta = input("Inserisci il numero: ")
+
+numero = int(risposta)
+print (numero)
